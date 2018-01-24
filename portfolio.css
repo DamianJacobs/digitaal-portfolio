@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  /*font-family: Comic Sans MS;*/
+}
+
+body {
+  background-color: black;
+}
+
+nav {
+  display: inline-block;
+  font-size: 26px;
+  background-color: silver;
+  width: 100%;
+  font-weight: bold;
+}
+
+nav:hover {
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+  margin: 50px;
+}
+
+a:hover {
+  color: green;
+}
+
+article {
+  background-color: silver;
+  width: 50%;
+  /*display: flex;*/
+  position: absolute;
+  height: 50%;
+  border-style: solid;
+  border-color: red;
+}
+
+#art {
+  background-color: silver;
+  width: 49.7%;
+  /*display: flex;*/
+  position: absolute;
+  height: 50%;
+  left: 50%;
+  border-style: solid;
+  border-color: red;
+}
+
+p {
+  margin: 30px;
+  font-size: 18px;
+}
+
+footer {
+background-color: silver;
+top: 95%;
+width: 100%;
+height: 5%;
+position: absolute;
+font-size: 30px;
+text-align: center;
+}
+
+#schol{
+  top: 54.7%;
+  position: absolute;
+  width: 100%;
+  height: 40%;
+}
+
+#list a{
+  margin: 15px;
+}
+
+#list p{
+  margin: 15px;
+}
+
+#Sun{
+  width: 10vw;
+  height: 10vw;
+  margin-left: 75px;
+}
+#lol{
+  width: 20vw;
+  height: 10vw;
+  margin-left: 75px;
+}
+
+#cv p{
+  margin: 25px;
+}
